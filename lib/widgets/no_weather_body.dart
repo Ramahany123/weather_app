@@ -15,6 +15,7 @@ class NoWeatherBody extends StatelessWidget {
           children: [
             Text(
               'there is no weather 😔 start',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 30,
               ),
