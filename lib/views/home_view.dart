@@ -19,7 +19,7 @@ class HomeView extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.blue,
+        // backgroundColor: Colors.blue,
         actions: [
           IconButton(
               onPressed: () {

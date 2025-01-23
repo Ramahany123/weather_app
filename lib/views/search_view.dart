@@ -18,7 +18,7 @@ class SearchView extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.blue,
+        // backgroundColor: Colors.blue,
       ),
       body: Center(
         child: Padding(
