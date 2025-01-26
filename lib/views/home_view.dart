@@ -19,6 +19,7 @@ class HomeView extends StatelessWidget {
             color: Colors.white,
           ),
         ),
+        elevation: 8,
         // backgroundColor: Colors.blue,
         actions: [
           IconButton(
@@ -40,7 +41,8 @@ class HomeView extends StatelessWidget {
           if (state is WeatherInitialState) {
             return const NoWeatherBody();
           } else if (state is WeatherLoadedState) {
-            return const WeatherInfoBody();
+            // ignore: prefer_const_constructors
+            return WeatherInfoBody();
           } else {
             return const Text("OOPs, there were an error");
           }
