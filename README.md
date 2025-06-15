@@ -1,16 +1,30 @@
-# weather_app
+# 🌤️ Flutter Weather App
 
-A new Flutter project.
+A clean and minimal Flutter weather application that displays real-time weather data based on user input. This app demonstrates effective use of state management with `Cubit`, modular architecture, and a responsive UI tailored for an enjoyable user experience.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🔍 **City Search** – Search weather by city name.
+- 🌡️ **Current Weather Display** – Shows temperature, weather conditions, and more.
+- 🎨 **Dynamic Theming** – Changes UI theme based on weather conditions.
+- ⚙️ **Cubit State Management** – Clean separation of business logic using `Cubit`.
+- 🔄 **Responsive UI** – Adapts to different screen sizes.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Project Structure
+lib/
+├── cubits/
+| ├──get_weather_cubit
+│   ├── get_weather_cubit.dart
+│   └── get_weather_states.dart
+├── models/
+│ └── weather_model.dart
+├── services/
+│ └── weather_services.dart
+├── methods/
+│ └── get_color_theme.dart
+├── views/
+│ ├── home_view.dart
+│ ├── search_view.dart
+├──widgets
+│  ├── no_weather_body.dart
+│  └── weather_info_body.dart
