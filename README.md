@@ -11,20 +11,22 @@ A clean and minimal Flutter weather application that displays real-time weather 
 - 🔄 **Responsive UI** – Adapts to different screen sizes.
 
 ## 🧱 Project Structure
+```plaintext
 lib/
 ├── cubits/
-| ├──get_weather_cubit
-│   ├── get_weather_cubit.dart
-│   └── get_weather_states.dart
+│   └── get_weather_cubit/
+│       ├── get_weather_cubit.dart
+│       └── get_weather_states.dart
 ├── models/
-│ └── weather_model.dart
+│   └── weather_model.dart
 ├── services/
-│ └── weather_services.dart
+│   └── weather_services.dart
 ├── methods/
-│ └── get_color_theme.dart
+│   └── get_color_theme.dart
 ├── views/
-│ ├── home_view.dart
-│ ├── search_view.dart
-├──widgets
-│  ├── no_weather_body.dart
-│  └── weather_info_body.dart
+│   ├── home_view.dart
+│   └── search_view.dart
+├── widgets/
+│   ├── no_weather_body.dart
+│   └── weather_info_body.dart
+```
